@@ -1,0 +1,67 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>My Weather App</title>
+    <link rel="stylesheet" href="style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+  </head>
+  <body>
+        <div class="container">
+            <div class="search-box">
+                <i class="bx bxs-map"></i>
+                <input type="text" class="search-bar" placeholder="Search location">
+                <button class="bx bx-search"></button>
+            </div>
+
+            <div class="city-name">City</div>
+            <div class="weather-box">
+                <div class="box">
+                    <div class="info-weather">
+                        <div class="weather">
+                            <img src="Assets/weather/clouds.svg" alt="cloudy">
+                            <p class="temperature">25<span>°C</span></p>
+                            <p class="weather-status">Cloudy</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            
+            <div class="weather-details">
+                
+                <div class="humidity">
+                    <i class='bx bx-water' ></i>
+                    <div class="text">
+                        <div class="info-humidity">  
+                            <span>0%</span>
+                        </div>
+                        <p>Humidity</p>
+                    </div>
+                </div>
+                
+                <div class="wind">
+                    <i class='bx bx-wind' ></i>
+                    <div class="text">
+                        <div class="info-wind">  
+                            <span>0Km/h</span>
+                        </div>
+                        <p>Wind Speed</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="not-found">
+                <div class="box">
+                    <img src="Assets/weather/404.png" alt="not-found">
+                </div>
+            </div>
+        </div>
+            
+            
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+
+  </body>
+</html>
